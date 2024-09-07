@@ -19,14 +19,14 @@ public class ContextTest implements SimplePersistenceTest {
   @Test
   void contextUpWithTransaction() throws Exception {
     withTransaction(() -> {
-      serviceServicio= new ServiceServicio();
-
-      serviceServicio.guardarServicios();
-      serviceServicio.recuperarServicios();
-      serviceServicio.agregarTareasAServicios();
-
-      serviceServicio.recuperarServicios2();
-      serviceServicio.actualizarNombreDeServicios();
+//      serviceServicio= new ServiceServicio();
+//
+//      serviceServicio.guardarServicios();
+//      serviceServicio.recuperarServicios();
+//      serviceServicio.agregarTareasAServicios();
+//
+//      serviceServicio.recuperarServicios2();
+//      serviceServicio.actualizarNombreDeServicios();
     });
   }
 

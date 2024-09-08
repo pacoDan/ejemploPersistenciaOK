@@ -7,7 +7,6 @@ import models.entities.Heladera.Heladera;
 
 import java.util.Date;
 import java.util.List;
-
 @Setter
 @Getter
 

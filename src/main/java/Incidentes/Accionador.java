@@ -5,7 +5,6 @@ import lombok.Setter;
 import models.entities.Heladera.Heladera;
 
 import java.util.List;
-
 @Setter
 @Getter
 public class Accionador {

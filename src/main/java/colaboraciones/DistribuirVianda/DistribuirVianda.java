@@ -13,6 +13,7 @@ import java.util.List;
 
 @Getter
 @Setter
+//@Entity
 public class DistribuirVianda {
     private Date fechaColaboracion;
     private Integer cantidad;

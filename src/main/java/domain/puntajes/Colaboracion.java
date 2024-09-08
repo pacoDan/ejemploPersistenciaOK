@@ -12,13 +12,13 @@ import java.util.Date;
 //@Entity
 //@Table(name = "colaboracion")
 public class Colaboracion {
-    @Id
+//    @Id
     private Long id;
 //    @ManyToOne
 //    @JoinColumn(name = "distribucion_vianda_id")
     private DistribuirVianda distribucionVianda;
     private DonacionVianda donacionVianda;
-    @Getter
+//    @Getter
     private DonacionDeDinero pesosDonados;
     private TarjetaRepartida tarjetaRepartida;
     //    private HeladeraActiva heladeraActiva;

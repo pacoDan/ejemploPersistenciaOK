@@ -5,7 +5,6 @@ import lombok.Setter;
 import models.entities.Direccion.Direccion;
 
 import java.util.Date;
-
 @Getter
 @Setter
 //@Entity
